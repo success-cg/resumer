@@ -1,209 +1,209 @@
 body * {
-  /*border: 1px solid #000;*/
+    /*border: 1px solid #000;*/
 }
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
-ul,li{
-  list-style: none;
-  margin: 0;
-  padding: 0;
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 #resumer {
-  width: 1000px;
-  margin: 10px auto;
-  display: flex;
-  /*min-height: 100vh;*/
-  border: 1px solid #000;
-  box-shadow: 2px 2px 2px 2px rgba(31,28,52,0.5);
-  border-radius: 15px;
-  overflow: hidden;
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    /*min-height: 100vh;*/
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px 2px rgba(31, 28, 52, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 aside {
-  width: 300px;
-  border-right: 1px solid #000;
-  background-color: #1F1C34;
-  color: #FFF;
+    width: 300px;
+    border-right: 1px solid #000;
+    background-color: #1F1C34;
+    color: #FFF;
 }
 
 main {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 aside .photo-container {
-  position: relative;
-  width: 250px;
-  height: 200px;
-  border-radius: 0 100px 100px 0;
-  background: #FFF8DC;
-  margin-top: 32px;
-  margin-bottom: 28px;
-  text-align: center;
-  /*border: 1px solid #000;*/
-  overflow: hidden;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border-radius: 0 100px 100px 0;
+    background: #FFF8DC;
+    margin-top: 32px;
+    margin-bottom: 28px;
+    text-align: center;
+    /*border: 1px solid #000;*/
+    overflow: hidden;
 }
 
 aside .photo-container .photo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  background: #ccc;
-  margin: 10px;
-  overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 10px;
+    overflow: hidden;
 }
 
 aside .photo-container .photo img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 aside .message {
-  margin-left: 40px;
-  margin-right: 40px;
-
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 aside .message>h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 aside .message h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 aside .message>p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 aside .message .contact {
-  border: 1px solid #fff;
-  border-left: none;
-  border-right: none;
-  /*border-bottom: 1px solid #000;*/
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+    /*border-bottom: 1px solid #000;*/
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 aside .message .contact li {
-  margin: 10px 0;
-  font-size: 18px;
+    margin: 10px 0;
+    font-size: 18px;
 }
 
 aside .message .contact li .iconfont {
-  display: inline-block;
-  font-size: 18px;
-  margin-right: 10px;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 10px;
 }
 
 aside .message .evaluate {
-  border-bottom: 1px solid #fff;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  /*padding-top: 40px;*/
+    border-bottom: 1px solid #fff;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    /*padding-top: 40px;*/
 }
 
 aside .message .evaluate p {
-  margin: 20px 0;
-  line-height: 2em;
+    margin: 20px 0;
+    line-height: 2em;
 }
 
 aside .message .wechat {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 aside .message .wechat .weixin {
-  margin: 20px 0;
-  width: 100%;
-  text-align: center;
-  /*background: red;*/
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+    /*background: red;*/
 }
 
 main {
-  padding: 5px 20px;
-  background: #FFF8DC;
+    padding: 5px 20px;
+    background: #FFF8DC;
 }
 
 main h2 {
-  margin: 8px 0;
-  font-size: 24px;
+    margin: 8px 0;
+    font-size: 24px;
 }
 
 main h2 .iconfont {
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 24px;
-  color: #1B9CDF;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #1B9CDF;
 }
 
 main h4 {
-  padding: 4px 0;
-  font-size: 16px;
+    padding: 4px 0;
+    font-size: 16px;
 }
 
 main .education {
-  border-bottom: 1px solid #999;
-  padding-bottom: 8px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 8px;
 }
 
 main .education p {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
-
 main .skill {
-  border-bottom: 1px solid #999;
-  padding-bottom: 8px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 8px;
 }
 
 main .skill .skill-list li {
-  float: left;
-  margin-right: 16px;
-  font-size: 18px;
+    float: left;
+    margin-right: 16px;
+    font-size: 18px;
 }
 
 main .skill .skill-list li .iconfont {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 main .skill .detail li {
-  width: 300px;
-  height: 100px;
-  float: left;
-  /*display: inline-block;*/
-  margin: 8px;
-  text-align: justify;
-  padding: 4px;
-  border: 1px solid rgba(31,28,52,0.5);
-  box-shadow: 2px 2px 2px 2px rgba(31,28,52,0.5);
-  border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    float: left;
+    /*display: inline-block;*/
+    margin: 8px;
+    text-align: justify;
+    padding: 4px;
+    border: 1px solid rgba(31, 28, 52, 0.5);
+    box-shadow: 2px 2px 2px 2px rgba(31, 28, 52, 0.5);
+    border-radius: 5px;
 }
 
 main .skill .detail p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 main .work {
-  border-bottom: 1px solid #999;
-  padding-bottom: 8px;
-  margin-bottom: 8px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
+
 
 /*main .work ul>li {
   padding: 5px;
@@ -212,75 +212,70 @@ main .work {
 }*/
 
 main .work a {
-  text-decoration: none;
-  color: #2BB8AA;
+    text-decoration: none;
+    color: #2BB8AA;
 }
 
 main .work strong {
-  font-size: 12px;
-  padding-left: 20px;
+    font-size: 12px;
+    padding-left: 20px;
 }
 
 main .work ul>li>p {
-  padding-left: 20px;
-  text-align: justify;
-  font-size: 16px;
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 16px;
 }
 
 main .work ul>li>p::first-letter {
-  color: #FF7F50;
-  float: left;
-  font-size: 1.8em;
-  letter-spacing: 5px;
+    color: #FF7F50;
+    float: left;
+    font-size: 1.8em;
+    letter-spacing: 5px;
 }
 
-
-main .blog,
-main .github {
-  display: inline-block;
-  width: 310px;
-  height: 200px;
-  vertical-align: top;
-  margin: 5px;
-  padding: 5px;
-  border: 1px solid rgba(31,28,52,0.5);
-  box-shadow: 2px 2px 2px 2px rgba(31,28,52,0.5);
-  border-radius: 5px;
+main .blog, main .github {
+    display: inline-block;
+    width: 310px;
+    height: 200px;
+    vertical-align: top;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgba(31, 28, 52, 0.5);
+    box-shadow: 2px 2px 2px 2px rgba(31, 28, 52, 0.5);
+    border-radius: 5px;
 }
 
-main .blog h5,
-main .github h5 {
-  padding-bottom: 5px;
-  text-decoration: underline;
+main .blog h5, main .github h5 {
+    padding-bottom: 5px;
+    text-decoration: underline;
 }
 
-main .blog p::first-letter,
-main .github p::first-letter{
-  color: #FF7F50;
-  float: left;
-  font-size: 1.8em;
-  letter-spacing: 5px;
+main .blog p::first-letter, main .github p::first-letter {
+    color: #FF7F50;
+    float: left;
+    font-size: 1.8em;
+    letter-spacing: 5px;
 }
 
-main .blog a,
-main .github a {
-  text-decoration: none;
-  color: #2BB8AA;
-  font-weight: bold;
+main .blog a, main .github a {
+    text-decoration: none;
+    color: #2BB8AA;
+    font-weight: bold;
 }
 
 main .hobby {
-  border-top: 1px solid #999;
-  margin-top: 8px;
+    border-top: 1px solid #999;
+    margin-top: 8px;
 }
 
 main .hobby ul>li {
-  display: inline-block;
-  width: 100px;
-  text-align: center;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
 }
 
 main .hobby ul>li .iconfont {
-  font-size: 28px;
-  color: #FF7F50;
+    font-size: 28px;
+    color: #FF7F50;
 }

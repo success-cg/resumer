@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main markdown">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon iconfont icon-music"></i>
+                    <div class="name">music</div>
+                    <div class="fontclass">.icon-music</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-mail"></i>
+                    <div class="name">mail</div>
+                    <div class="fontclass">.icon-mail</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-user"></i>
+                    <div class="name">user</div>
+                    <div class="fontclass">.icon-user</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-tel"></i>
+                    <div class="name">tel</div>
+                    <div class="fontclass">.icon-tel</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-education"></i>
+                    <div class="name">edu_fenlei_daxue</div>
+                    <div class="fontclass">.icon-education</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-github"></i>
+                    <div class="name">github</div>
+                    <div class="fontclass">.icon-github</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-plus"></i>
+                    <div class="name">plus</div>
+                    <div class="fontclass">.icon-plus</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-pc"></i>
+                    <div class="name">pc</div>
+                    <div class="fontclass">.icon-pc</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-skill"></i>
+                    <div class="name">ic_skill</div>
+                    <div class="fontclass">.icon-skill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-read"></i>
+                    <div class="name">read</div>
+                    <div class="fontclass">.icon-read</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-blog"></i>
+                    <div class="name">Blog</div>
+                    <div class="fontclass">.icon-blog</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-tour"></i>
+                    <div class="name">旅游</div>
+                    <div class="fontclass">.icon-tour</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-school"></i>
+                    <div class="name">school</div>
+                    <div class="fontclass">.icon-school</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-edu"></i>
+                    <div class="name">edu</div>
+                    <div class="fontclass">.icon-edu</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-work"></i>
+                    <div class="name">work</div>
+                    <div class="fontclass">.icon-work</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-hobby"></i>
+                    <div class="name">兴趣爱好</div>
+                    <div class="fontclass">.icon-hobby</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-ride"></i>
+                    <div class="name">riding</div>
+                    <div class="fontclass">.icon-ride</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-movie"></i>
+                    <div class="name">movie</div>
+                    <div class="fontclass">.icon-movie</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-local"></i>
+                    <div class="name">local</div>
+                    <div class="fontclass">.icon-local</div>
+                </li>
+            
+        </ul>
+
+        <h2 id="font-class-">font-class引用</h2>
+        <hr>
+
+        <p>font-class是unicode使用方式的一种变种，主要是解决unicode书写不直观，语意不明确的问题。</p>
+        <p>与unicode使用方式相比，具有如下特点：</p>
+        <ul>
+        <li>兼容性良好，支持ie8+，及所有现代浏览器。</li>
+        <li>相比于unicode语意明确，书写更直观。可以很容易分辨这个icon是什么。</li>
+        <li>因为使用class来定义图标，所以当要替换图标时，只需要修改class里面的unicode引用。</li>
+        <li>不过因为本质上还是使用的字体，所以多色图标还是不支持的。</li>
+        </ul>
+        <p>使用步骤如下：</p>
+        <h3 id="-fontclass-">第一步：引入项目下面生成的fontclass代码：</h3>
+
+
+        <pre><code class="lang-js hljs javascript"><span class="hljs-comment">&lt;link rel="stylesheet" type="text/css" href="./iconfont.css"&gt;</span></code></pre>
+        <h3 id="-">第二步：挑选相应图标并获取类名，应用于页面：</h3>
+        <pre><code class="lang-css hljs">&lt;<span class="hljs-selector-tag">i</span> <span class="hljs-selector-tag">class</span>="<span class="hljs-selector-tag">iconfont</span> <span class="hljs-selector-tag">icon-xxx</span>"&gt;&lt;/<span class="hljs-selector-tag">i</span>&gt;</code></pre>
+        <blockquote>
+        <p>"iconfont"是你项目下的font-family。可以通过编辑项目查看，默认是"iconfont"。</p>
+        </blockquote>
+    </div>
+</body>
+</html>
