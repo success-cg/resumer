@@ -122,6 +122,7 @@ aside .message .evaluate {
 aside .message .evaluate p {
     margin: 20px 0;
     line-height: 2em;
+    text-align: justify;
 }
 
 aside .message .wechat {
