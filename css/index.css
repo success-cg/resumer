@@ -26,7 +26,7 @@ ul, li {
     display: flex;
     /*min-height: 100vh;*/
     border: 1px solid #000;
-    box-shadow: 2px 2px 2px 2px rgba(31, 28, 52, 0.5);
+    /*box-shadow: 2px 2px 2px 2px rgba(31, 28, 52, 0.5);*/
     border-radius: 15px;
     overflow: hidden;
 }
@@ -139,6 +139,7 @@ aside .message .wechat .weixin {
 main {
     padding: 5px 20px;
     background: #FFF8DC;
+    line-height: 1.5em;
 }
 
 main h2 {
@@ -184,19 +185,25 @@ main .skill .skill-list li .iconfont {
 
 main .skill .detail li {
     width: 300px;
-    height: 100px;
+    min-height: 115px;
     float: left;
     /*display: inline-block;*/
     margin: 8px;
     text-align: justify;
     padding: 4px;
     border: 1px solid rgba(31, 28, 52, 0.5);
-    box-shadow: 2px 2px 2px 2px rgba(31, 28, 52, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(31, 28, 52, 0.5);
     border-radius: 5px;
 }
 
 main .skill .detail p {
     font-size: 14px;
+}
+
+main .skill .detail p::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
 }
 
 main .work {
@@ -217,7 +224,7 @@ main .work a {
     color: #2BB8AA;
 }
 
-main .work strong {
+main .work h6 {
     font-size: 12px;
     padding-left: 20px;
 }
@@ -228,22 +235,22 @@ main .work ul>li>p {
     font-size: 16px;
 }
 
-main .work ul>li>p::first-letter {
+/*main .work ul>li>p::first-letter {
     color: #FF7F50;
     float: left;
     font-size: 1.8em;
     letter-spacing: 5px;
-}
+}*/
 
 main .blog, main .github {
     display: inline-block;
     width: 310px;
-    height: 200px;
+    min-height: 200px;
     vertical-align: top;
     margin: 5px;
     padding: 5px;
     border: 1px solid rgba(31, 28, 52, 0.5);
-    box-shadow: 2px 2px 2px 2px rgba(31, 28, 52, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(31, 28, 52, 0.5);
     border-radius: 5px;
 }
 
@@ -252,12 +259,12 @@ main .blog h5, main .github h5 {
     text-decoration: underline;
 }
 
-main .blog p::first-letter, main .github p::first-letter {
+/*main .blog p::first-letter, main .github p::first-letter {
     color: #FF7F50;
     float: left;
     font-size: 1.8em;
     letter-spacing: 5px;
-}
+}*/
 
 main .blog a, main .github a {
     text-decoration: none;
