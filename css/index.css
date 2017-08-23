@@ -259,6 +259,10 @@ main .blog h5, main .github h5 {
     text-decoration: underline;
 }
 
+main .blog p, main .github p {
+    font-size: 14px;
+}
+
 /*main .blog p::first-letter, main .github p::first-letter {
     color: #FF7F50;
     float: left;
