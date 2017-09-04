@@ -1,5 +1,6 @@
 body * {
     /*border: 1px solid #000;*/
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
 }
 
 * {
@@ -273,7 +274,7 @@ main .blog p, main .github p {
 main .blog a, main .github a {
     text-decoration: none;
     color: #2BB8AA;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 main .hobby {
