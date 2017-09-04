@@ -22,7 +22,7 @@ ul, li {
 }
 
 #resumer {
-    width: 1000px;
+    width: 1200px;
     margin: 10px auto;
     display: flex;
     /*min-height: 100vh;*/
@@ -33,7 +33,7 @@ ul, li {
 }
 
 aside {
-    width: 300px;
+    width: 400px;
     border-right: 1px solid #000;
     background-color: #1F1C34;
     color: #FFF;
@@ -74,22 +74,27 @@ aside .photo-container .photo img {
 }
 
 aside .message {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-aside .message>h1 {
-    font-size: 28px;
+aside .message>.name {
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
+aside .message>.job {
+    font-size: 28px;
+    /*margin-bottom: 0px;*/
+}
+
 aside .message h2 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
-aside .message>p {
-    font-size: 16px;
+aside .message p {
+    font-size: 20px;
 }
 
 aside .message .contact {
@@ -99,12 +104,12 @@ aside .message .contact {
     /*border-bottom: 1px solid #000;*/
     margin-top: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 aside .message .contact li {
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 aside .message .contact li .iconfont {
@@ -116,22 +121,23 @@ aside .message .contact li .iconfont {
 aside .message .evaluate {
     border-bottom: 1px solid #fff;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     /*padding-top: 40px;*/
 }
 
-aside .message .evaluate p {
-    margin: 20px 0;
-    line-height: 2em;
+aside .message .evaluate .detail {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    line-height: 1.8em;
     text-align: justify;
 }
 
 aside .message .wechat {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 aside .message .wechat .weixin {
-    margin: 20px 0;
+    margin: 10px 0;
     width: 100%;
     text-align: center;
     /*background: red;*/
@@ -139,7 +145,7 @@ aside .message .wechat .weixin {
 
 main {
     padding: 5px 20px;
-    background: #FFF8DC;
+    background: #fff;
     line-height: 1.5em;
 }
 
@@ -185,7 +191,7 @@ main .skill .skill-list li .iconfont {
 }
 
 main .skill .detail li {
-    width: 300px;
+    width: 400px;
     min-height: 115px;
     float: left;
     /*display: inline-block;*/
@@ -222,7 +228,7 @@ main .work {
 
 main .work a {
     text-decoration: none;
-    color: #2BB8AA;
+    color: #000;
 }
 
 main .work h6 {
@@ -245,7 +251,7 @@ main .work ul>li>p {
 
 main .blog, main .github {
     display: inline-block;
-    width: 310px;
+    width: 400px;
     min-height: 200px;
     vertical-align: top;
     margin: 5px;
@@ -273,7 +279,7 @@ main .blog p, main .github p {
 
 main .blog a, main .github a {
     text-decoration: none;
-    color: #2BB8AA;
+    color: #000;
     /*font-weight: bold;*/
 }
 
