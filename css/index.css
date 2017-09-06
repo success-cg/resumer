@@ -228,7 +228,7 @@ main .work {
 
 main .work a {
     text-decoration: none;
-    color: #000;
+    color: #2BB8AA;
 }
 
 main .work h6 {
@@ -279,7 +279,7 @@ main .blog p, main .github p {
 
 main .blog a, main .github a {
     text-decoration: none;
-    color: #000;
+    color: #2BB8AA;
     /*font-weight: bold;*/
 }
 
